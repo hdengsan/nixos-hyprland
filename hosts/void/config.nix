@@ -235,6 +235,10 @@
   };
 
   environment.systemPackages = with pkgs; [
+    hyprlock
+    libreoffice-fresh
+    chromium
+    obsidian
     vim
     wget
     killall
