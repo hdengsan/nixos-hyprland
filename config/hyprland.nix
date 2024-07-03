@@ -22,9 +22,9 @@ with lib;
     enable = true;
     xwayland.enable = true;
     systemd.enable = true;
-    # plugins = [
-    #   hyprplugins.hyprtrails
-    # ];
+    plugins = [
+      hyprplugins.hyprtrails
+    ];
     extraConfig =
       let
         modifier = "SUPER";
