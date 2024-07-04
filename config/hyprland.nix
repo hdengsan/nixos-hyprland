@@ -121,10 +121,10 @@ with lib;
                 ignore_opacity = off
             }
           }
-          plugin {
-            hyprtrails {
-            }
-          }
+          # plugin {
+          #   hyprtrails {
+          #   }
+          # }
           dwindle {
             pseudotile = true
             preserve_split = true
