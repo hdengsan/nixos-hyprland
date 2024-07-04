@@ -235,6 +235,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    localsend
     hyprlock
     libreoffice-fresh
     chromium
