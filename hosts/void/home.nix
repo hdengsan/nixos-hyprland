@@ -77,7 +77,7 @@ in
   };
 
   # Styling Options
-  stylix.targets.waybar.enable = false;
+  stylix.targets.waybar.enable = true;
   stylix.targets.rofi.enable = false;
   stylix.targets.hyprland.enable = false;
   gtk = {
@@ -178,7 +178,7 @@ in
         #fi
       '';
       initExtra = ''
-        fastfetch
+        # fastfetch
         if [ -f $HOME/.bashrc-personal ]; then
           source $HOME/.bashrc-personal
         fi
